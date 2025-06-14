@@ -5,3 +5,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Testing"
+  date:
+    runs-on: ubuntu-latest
+    steps:
+      - run: date
+  directory-content:
+    runs-on: ubuntu-latest
+    steps:
+      - run: ls -lh
